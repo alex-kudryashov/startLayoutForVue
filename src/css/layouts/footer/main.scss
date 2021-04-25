@@ -1,0 +1,18 @@
+footer.main-site-footer {
+  background-color: $secondary;
+
+  .footer-navigation {
+    .navigation-list {
+      &__item {
+        a {
+          &:hover, &:focus {
+            color: $primary;
+          }
+          &:disabled {
+
+          }
+        }
+      }
+    }
+  }
+}

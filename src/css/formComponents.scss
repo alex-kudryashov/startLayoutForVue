@@ -1,0 +1,27 @@
+button, input, textarea, select {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 8px;
+  transition: $transition-speed;
+}
+
+input, textarea, select {
+  border: 2px solid $primary;
+  cursor: text;
+  &:hover, &:focus {
+    border-color: $secondary;
+  }
+  &:disabled {
+
+  }
+}
+
+select {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  vertical-align: top;
+}
